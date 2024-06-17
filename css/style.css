@@ -1,0 +1,39 @@
+body {
+    background: url(../images/disney-elp-hero-bg-dt.webp);
+}
+
+.header {}
+
+.header .inner {
+    display: flex;
+    height: 50px;
+    align-items: center;
+
+}
+
+.header .inner h1 img {
+    height: 30px;
+    flex: 1;
+    margin: 0 auto 0 0;
+}
+
+.header .inner .header_slide {
+    border: 1px solid #ddd;
+    border-radius: 24px;
+    flex: 3;
+    text-align: center;
+
+}
+
+.header .inner .header_slide p {
+    color: #fff;
+    line-height: 30px;
+}
+
+.header .inner .utils {
+    flex: 1;
+}
+
+.header .inner .utils img {
+    height: 24px;
+}
